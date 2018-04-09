@@ -1,0 +1,80 @@
+body{
+		background: url("../Веб/background-board.jpg");
+        background-size: cover;
+		margin: 30px 20px;
+		font-size: 18px; 
+		font-family: 'Noto Sans', sans-serif;
+	}
+	.col {
+		float: left;
+		width: 25%;
+	}
+	
+	.col > div:hover {
+		box-shadow: 0 0 3px #666, 0 0 5px #ccc;
+		cursor: pointer;
+	}
+	.col > div {
+		margin: 10px;
+	}
+	.col img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+		object-position: 98% 1%;
+		display: block;
+	}
+	.col-text > div {
+		height: 150px;
+		overflow: hidden;
+	}
+	.col-text {
+		border: 1px solid #432;
+    	background: rgba(170, 136, 119, 0.8);
+		color: black;
+		border-top: 0;
+		padding: 10px;
+		text-align: justify;
+	}
+	a,
+	a:visited,
+	a:focus,
+	a:active,
+	a:hover {
+		text-decoration: none;
+		color: black;
+	}
+	a:hover {
+		color: white;
+	}
+.active{
+	background: rgba(170, 136, 119, 0.8);
+}
+	@media (max-width: 1200px) and (min-width: 800px) {
+		.col {
+			width: 33%;
+		}
+	}
+	@media (max-width: 799px) {
+		.col {
+			width: 50%;
+		}
+	}
+	ul.menu {
+		padding-left: 10px;
+		
+
+	}
+	ul.menu > li {
+		display: inline-block;
+		background: rgba(255, 225, 115, 0.9);
+		border-right: 1px solid #FFD640;
+		padding: 0;
+
+	}
+	ul.menu > li > a {
+	  padding: 10px;
+	  display: inline-block;
+	}
+	
+	
